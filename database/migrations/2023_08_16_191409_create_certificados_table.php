@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('alumno_id'); // Clave foránea
             $table->unsignedBigInteger('taller_id'); // Clave foránea
+            $table->boolean('estado')->default(0);
             // Otros campos relevantes para certificados
             $table->timestamps();
 
