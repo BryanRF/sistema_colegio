@@ -2,18 +2,17 @@
 
 namespace Database\Seeders;
 
-use App\Models\Matricula;
+use App\Models\Certificado;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class MatriculasTableSeeder extends Seeder
+class CertificadosSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        Matricula::factory(150)->create();
-
+        Certificado::factory(200)->create();
     }
 }
