@@ -1,59 +1,46 @@
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:tVYPwYLbUiAnKe7V3r4lYrsbaZcxxxeqkUN7q1e2kSE=
-APP_DEBUG=true
-APP_URL=http://localhost
+# Configuración del Proyecto Sistema Colegio
 
-LOG_CHANNEL=stack
-LOG_DEPRECATIONS_CHANNEL=null
-LOG_LEVEL=debug
+Este es un guía paso a paso para configurar y ejecutar el proyecto Sistema Colegio en tu entorno local.
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=root
-DB_PASSWORD=
+## Requerimientos
 
-BROADCAST_DRIVER=log
-CACHE_DRIVER=file
-FILESYSTEM_DISK=local
-QUEUE_CONNECTION=sync
-SESSION_DRIVER=file
-SESSION_LIFETIME=120
+Asegúrate de tener instalados los siguientes elementos antes de comenzar:
 
-MEMCACHED_HOST=127.0.0.1
+- [XAMPP](https://www.apachefriends.org/) - Última versión recomendada.
+- [Visual Studio Code](https://code.visualstudio.com/download) - Editor de código preferido.
+- [Node.js](https://nodejs.org/es) - Plataforma JavaScript.
+- [Composer](https://getcomposer.org/Composer-Setup.exe) - Gestor de paquetes PHP.
 
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
+## Configuración del Proyecto
 
-MAIL_MAILER=smtp
-MAIL_HOST=mailpit
-MAIL_PORT=1025
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS="hello@example.com"
-MAIL_FROM_NAME="${APP_NAME}"
+1. Clona este repositorio en tu sistema.
 
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=us-east-1
-AWS_BUCKET=
-AWS_USE_PATH_STYLE_ENDPOINT=false
+2. Abre XAMPP y asegúrate de que los servicios de Apache y MySQL estén activos.
 
-PUSHER_APP_ID=
-PUSHER_APP_KEY=
-PUSHER_APP_SECRET=
-PUSHER_HOST=
-PUSHER_PORT=443
-PUSHER_SCHEME=https
-PUSHER_APP_CLUSTER=mt1
+3. En el módulo de Apache, abre el archivo `php.ini`. Puedes encontrarlo en la configuración.
+   Busca la línea `;extension=zip` y elimina el `;` al comienzo para que se vea así: `extension=zip`.
 
-VITE_APP_NAME="${APP_NAME}"
-VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-VITE_PUSHER_HOST="${PUSHER_HOST}"
-VITE_PUSHER_PORT="${PUSHER_PORT}"
-VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
-VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+4. Abre el proyecto en Visual Studio Code.
+
+5. Cambia el nombre del archivo `txtenv` a `.env`.
+
+6. Abre el terminal en Visual Studio Code usando `Ctrl + Shift + Ñ`.
+
+7. Ejecuta el siguiente comando para instalar las dependencias de Node.js:
+
+
+8. Ejecuta el siguiente comando para instalar las dependencias de Composer:
+
+
+9. Ejecuta las migraciones de la base de datos y agrega datos de prueba:
+
+
+10. Abre tu navegador web e ingresa la siguiente URL para acceder al proyecto:
+
+ ```
+ http://localhost/sistema_colegio/public
+ ```
+
+¡Listo! Ahora deberías poder ver y explorar el proyecto Sistema Colegio en tu entorno local.
+
+---
