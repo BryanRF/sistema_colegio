@@ -1,6 +1,6 @@
 # Configuración del Proyecto Sistema Colegio
 
-Este es un guía paso a paso para configurar y ejecutar el proyecto Sistema Colegio en tu entorno local.
+Esta es una guía paso a paso para configurar y ejecutar el proyecto Sistema Colegio en tu entorno local.
 
 ## Requerimientos
 
