@@ -27,14 +27,17 @@ Asegúrate de tener instalados los siguientes elementos antes de comenzar:
 6. Abre el terminal en Visual Studio Code usando `Ctrl + Shift + Ñ`.
 
 7. Ejecuta el siguiente comando para instalar las dependencias de Node.js:
-
-
+ ```
+npm install
+ ```
 8. Ejecuta el siguiente comando para instalar las dependencias de Composer:
-
-
+ ```
+composer install
+ ```
 9. Ejecuta las migraciones de la base de datos y agrega datos de prueba:
-
-
+ ```
+php artisan migrate:fresh --seed
+ ```
 10. Abre tu navegador web e ingresa la siguiente URL para acceder al proyecto:
 
  ```
